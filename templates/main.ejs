@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Data</title>
+    <link rel="stylesheet" href="/sass/style.css">
+    <link rel="icon" type="image/x-icon" href="./media/favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav_inner">
+                    <div class="nav-brand">
+                        <img src="./media/logo.svg" alt="SOFTDATA Software Company">
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li><a class="navlink" href="#main">Главная</a></li>
+                            <li><a class="navlink" href="#about">О нас</a></li>
+                            <li><a class="navlink" href="#services">Мы предлогаем</a></li>
+                            <!-- <li><a href="#portfolio">Портфолио</a></li> -->
+                            <li><a class="navlink" href="#footer">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-buttons">
+<!--                        <div class="lang-btn">-->
+<!--                            <button class="active">Ру</button>-->
+<!--                            <span>/</span>-->
+<!--                            <button>O'z</button>-->
+<!--                        </div>-->
+                        <a href="#contact"  id="cont" class="contact-btn">
+                            <span class="anim"></span>
+                            <span class="anim"></span>
+                            <span class="anim"></span>
+                            <span class="anim"></span>
+                            <span class="text">Связаться с нами</span>
+                            <img class="nav-message" src="./media/message-isco.svg" alt="">
+                        </a>
+                        <div class="nav__burger">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="sidebar" class="sidebar">
+            <ul>
+                <li><a class="navlink" href="#main">Главная</a></li>
+                <li><a class="navlink" href="#about">О нас</a></li>
+                <li><a class="navlink" href="#services">Мы предлогаем</a></li>
+<!--                <li><a class="navlink" href="#portfolio">Портфолио</a></li>-->
+                <li><a class="navlink" href="#footer">Наша команда</a></li>
+            </ul>
+        </div>
+        <section id="main" class="main">
+            <div class="container">
+                <div class="inner-block">
+                    <div class="title">
+                        Воплощаем идеи
+                        <br>
+                        <span>в реальность</span>
+                    </div>
+                    <div class="text">
+                        Основной задачей компании является применение самых эффективных методик и технологий интелектуальных систем в процессе разработки программного обеспечения.
+                    </div>
+<!--                    <button class="contact-btn">-->
+<!--                        Подробнее-->
+<!--                        <span class="anim"></span>-->
+<!--                        <span class="anim"></span>-->
+<!--                        <span class="anim"></span>-->
+<!--                        <span class="anim"></span>-->
+<!--                    </button>-->
+                </div>
+                <div class="inner-block">
+                    <img class="notebook" src="./media/main_notebook_picture.svg" alt="Notebook picture">
+                </div>
+            </div>
+            <div class="side-panel">
+                <a href="#footer" class="arrow-bottom"><img src="./media/side-panel-arrow.svg" alt=""></a>
+                <a target="_blank" href="https://www.facebook.com/softdata.uz"><i class="fa-brands fa-facebook"></i><span>Facebook</span></a>
+                <a target="_blank" href="https://www.instagram.com/softdatauz/"><i class="fa-brands fa-instagram"></i><span>Instagram</span></a>
+                <a target="_blank" href="https://www.linkedin.com/company/softdatauz/"><i class="fa-brands fa-linkedin"></i><span>Linked In</span></a>
+            </div>
+        </section>
+    </header>
+    <section id="about" class="about_us">
+        <div class="container">
+            <div class="inner-block">
+                <div class="title">
+                    О нас
+                </div>
+                <div class="subtitle">
+                    ВАШ ПАРТНЕР В МИРЕ ИННОВАЦИЙ, ТЕХНОЛОГИЙ И БЕЗОПАСНОСТИ!
+                </div>
+                <div class="text">
+                    Основная цель Soft Data предоставить возможность нашим клиентам получить качественные услуги, которые помогут им эффективно автоматизировать свои бизнес-процессы, улучшить систему безопасности и добиться максимальных показателей продуктивности своей деятельности.
+                </div>
+<!--                <div class="text border">-->
+<!--                    ООО «SoftData» — инновационная ИТ-компания, работающая на рынке более 3 лет.-->
+<!--                </div>-->
+            </div>
+            <div class="inner-block">
+                <img class="about_img" src="./media/aboutimg.png" alt="Notebook picture">
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="title">
+                Мы предлогаем
+            </div>
+            <div class="cards">
+                <!--<div class="card">
+                    <div class="card_inner">
+                        <div class="img">
+                            <img src="./media/services/computer 1.svg" alt="">
+                        </div>
+                        <div class="title">
+                            Установка и поддержка ПО
+                        </div>
+                        <div class="text">
+                            Услуги по установке и поддержке программного обеспечения, предоставляемые компанией SoftData...
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_inner">
+                        <div class="img">
+                            <img src="./media/services/infrastructure.svg" alt="">
+                        </div>
+                        <div class="title">
+                            Инфраструктурные решения
+                        </div>
+                        <div class="text">
+                            Правильно спроектированная инфраструктура — важный фактор успеха любой компании — полностью....
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>-->
+                <!--<div class="card">
+                    <div class="card_inner">
+                        <div class="img">
+                            <img src="./media/services/cyber-security 1.svg" alt="">
+                        </div>
+                        <div class="title">
+                            Информационная безопасность
+                        </div>
+                        <div class="text">
+                            Правильно спроектированная инфраструктура — важный фактор успеха любой компании — полностью...
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div> -->
+                <div class="card">
+                    <div class="card_inner">
+                        <div class="img">
+                            <img src="./media/services/cyber-security 1.svg" alt="">
+                        </div>
+                        <div class="title">
+                            Разработка, внедрение и сопровождение решений по интеллектуальному видеонаблюдению
+                        </div>
+                        <div class="text">
+                            - распознавание лиц;
+                            <br>
+                            - распознавание номеров транспортных средств;
+                            <br>
+                            - умные стоянки;
+                            <br>
+                            - видеоаналитика.
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <!--<div class="card">
+                    <div class="card_inner">
+                        <div class="img">
+                            <img src="./media/services/internet 1.svg" alt="">
+                        </div>
+                        <div class="title">
+                            Поставка оборудования
+                        </div>
+                        <div class="text">
+                            В основе любой ИТ-инфраструктуры лежит «железо». SoftData располагает всем необходимым, чтобы построить фундамент инфраструктуры предприятия ...
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>-->
+                <div class="card">
+                    <div class="card_inner">
+                        <div class="img">
+                            <img src="./media/services/integration 1.svg" alt="">
+                        </div>
+                        <div class="title">
+                            Разработка, внедрение и сопровождение решений по интеллектуальным системам контроля и управления доступом
+                        </div>
+                        <div class="text">
+                            - обеспечения доступа по биометрическим данным;
+                            <br>
+                            - обеспечение доступа по магнитным картам;
+                            <br>
+                            - обеспечение доступа по face ID;
+                            <br>
+                            - аналитика и статистика.
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_inner">
+                        <div class="img">
+                            <img src="./media/services/Development.svg" alt="">
+                        </div>
+                        <div class="title">
+                            Разработка, внедрение и сопровождение решений на базе 1С
+                        </div>
+                        <div class="text">
+                            - 1С Бухгалтерия;
+                            <br>
+                            - 1С Предприятие;
+                            <br>
+                            - 1С Холдинг.
+                        </div>
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- <section id="portfolio" class="portfolio"> 
+        <div class="container">
+            <div class="title">
+                Портфолио
+            </div>
+            <div class="sections">
+                <button class="section active">Все</button>
+                <button class="section">Фронтенд</button>
+                <button class="section">Бэкенд</button>
+                <button class="section">Мобильное приложение</button>
+                <button class="section">Веб-дизайн</button>
+            </div>
+            <div class="frames">
+                <div class="frame">
+                    <div class="holder">
+                        <div class="type">Фронтенд</div>
+                        <hr>
+                        <div class="description">Some Project</div>
+                    </div>
+                </div>
+                <div class="frame">
+                    <div class="holder">
+                        <div class="type">Фронтенд</div>
+                        <hr>
+                        <div class="description">Some Project</div>
+                    </div>
+                </div>
+                <div class="frame">
+                    <div class="holder">
+                        <div class="type">Фронтенд</div>
+                        <hr>
+                        <div class="description">Some Project</div>
+                    </div>
+                </div>
+                <div class="frame">
+                    <div class="holder">
+                        <div class="type">Фронтенд</div>
+                        <hr>
+                        <div class="description">Some Project</div>
+                    </div>
+                </div>
+                <div class="frame">
+                    <div class="holder">
+                        <div class="type">Фронтенд</div>
+                        <hr>
+                        <div class="description">Some Project</div>
+                    </div>
+                </div>
+                <div class="frame">
+                    <div class="holder">
+                        <div class="type">Фронтенд</div>
+                        <hr>
+                        <div class="description">Some Project</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section> -->
+    <section id="contact" class="contact_us">
+        <div class="container">
+            <div class="inner-block">
+                <div class="title">
+                    Связаться с нами
+                </div>
+                <form id="emailform" action="#">
+                    <div class="raw">
+                        <input required class="contact-fields" type="text" id="name" name="name" placeholder="Имя*">
+                        <input required class="contact-fields" type="tel" id="phone" name="phone" placeholder="Телефон*">
+                    </div>
+                    <div class="raw">
+                        <input required class="contact-fields" type="text" name="title" placeholder="Тема*">
+                    </div>
+                    <div class="raw">
+                        <textarea required class="contact-fields" name="message" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                    </div>
+                    <button class="contact-btn">
+                        Отправить
+                        <span class="anim"></span>
+                        <span class="anim"></span>
+                        <span class="anim"></span>
+                        <span class="anim"></span>
+                    </button>
+                </form>
+            </div>
+            <div class="inner-block">
+                <div class="subtitle">
+                    ДЛЯ ОБРАЩЕНИЯ
+                </div>
+                <a class="phone" href="tel:+998 90 346 52 07">+998 90 346 52 07</a>
+                <div class="text">Свяжитесь с нами если у вас есть какие-либо вопросы. Операторы свяжутся с вами в ближайшее время</div>
+                <div class="contact-icons">
+                    <div class="inner-block">
+                        <div class="icon">
+                            <a target="_blank" class="contact-btn" href="https://yandex.uz/maps/-/CCURrRGQ9B">
+                                <span class="anim"></span>
+                                <span class="anim"></span>
+                                <span class="anim"></span>
+                                <span class="anim"></span>
+                                <img src="./media/location.svg" alt="location">
+                            </a>
+                        </div>
+                        <div class="description">
+                            г.Ташкент, Юнусабадский район, улица Богишамол 233
+                        </div>
+                    </div>
+                    <div class="inner-block">
+                        <div class="icon">
+                            <a class="contact-btn" href="mailto: info@softdata.uz">
+                                <span class="anim"></span>
+                                <span class="anim"></span>
+                                <span class="anim"></span>
+                                <span class="anim"></span>
+                                <img src="./media/email.svg" alt="location">
+                            </a>
+                        </div>
+                        <div class="description">
+                            info@softdata.uz 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our_partners">
+        <div class="container">
+            <div class="title">Вендоры с которыми мы сотрудничаем:</div>
+            <div class="partners_inner">
+                <div class="partner">
+                    <img src="media/partners/ITC.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="media/partners/1C.svg" alt="">
+                </div>
+                <div class="partner">
+                    <img src="media/partners/hikvision.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="media/partners/LG.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="media/partners/soltech.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="media/partners/utepo.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="media/partners/H3c-logo-english-16x9.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="media/partners/LOGO_header.57e0e23.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="button-wrapper">
+                <a href="#main" class="up">
+                    <img src="./media/arrow-up.svg" alt="up">
+                </a>
+        </div>
+        <div class="container">
+            <div class="header">
+                <div class="inner-block">
+                    <img src="./media/logo.svg" alt="Logo">
+                </div>
+                <div class="inner-block">
+                    Воплощаем идеи <span>в реальность</span>
+                </div>
+            </div>
+            <div class="footer-grid">
+                <div class="grid-item">
+                    <div class="text">
+                        Основной задачей компании является применение самых эффективных методик и технологий в процессе разработки программного обеспечения.
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/softdata.uz"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/softdatauz/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/softdatauz/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a style="display:none" href=""><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="title">
+                        Услуги
+                    </div>
+                    <ul>
+                        <li>Интелектуальное видеонаблюдение</li>
+                        <li>Системы контроля-управленеия доступом</li>
+                        <li>Решения на базе 1C</li>
+                    </ul>
+                </div>
+                <div class="grid-item">
+                    <div class="title">
+                        Контакты
+                    </div>
+                    <div class="contact">
+                        <div class="icon">
+                            <img src="./media/location.svg" alt="">
+                        </div>
+                        г.Ташкент, Юнусабадский район, улица Богишамол 233
+                    </div>
+                    <div class="contact">
+                        <div class="icon">
+                            <img src="./media/email.svg" alt="">
+                        </div>
+                        info@softdata.uz
+                    </div>
+                    <div class="contact">
+                        <div class="icon">
+                            <img src="./media/phone.svg" alt="">
+                        </div>
+                        +998 90 346 52 07
+                        <br>
+                        +998 99 806-48-36
+                        <br>
+                        +998 97 267-13-21
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end">
+                <div>
+                    Copyright © 2022 <span>SoftData.uz</span>. все права защищены
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="cover">
+    </div>
+    <div class="spinnerWrap">
+        <div class="spinner" id="spinner1"></div>
+    </div>
+    <div class="success">
+        <div class="success-animation">
+            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" /><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" /></svg>
+        </div>
+    </div>
+    <div class="error">
+        <div class="error-animation">
+            <svg class="checkmark error" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark_circle_error" cx="26" cy="26" r="25" fill="none"/><path class="checkmark_check" stroke-linecap="round" fill="none" d="M16 16 36 36 M36 16 16 36
+                "/></svg>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
