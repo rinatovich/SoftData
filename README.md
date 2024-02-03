@@ -24,4 +24,4 @@ Just the visit page based on Node.js(Express) hosted on AHOST hosting provider
     npm start
     ```
 
-React project will be available at http://172.0.0.1:8080/
+Project will be available at http://172.0.0.1:8080/
